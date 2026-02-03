@@ -1,0 +1,23 @@
+# --- Standard Maven Ignored Files ---
+target/
+*.log
+*.class
+
+# --- IDE Specific Files (Eclipse/STS/IntelliJ) ---
+# It is best practice to ignore these so you don't conflict with other developers
+.settings/
+.classpath
+.project
+.idea/
+*.iml
+*.iws
+
+# --- OS Specific Files ---
+.DS_Store
+Thumbs.db
+
+# --- Maven Wrapper (Per your request) ---
+# Add these lines if you do NOT want to commit the wrapper scripts
+.mvn/
+mvnw
+mvnw.cmd
